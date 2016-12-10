@@ -20,5 +20,5 @@ do_compile() {
 
 do_install() {
 	install -d ${D}${bindir}
-	install unjffs2 ${D}${bindir}/
+	install hd-idle ${D}${bindir}/
 }
